@@ -1,0 +1,80 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ls
+    5  ls -l
+    6  ls -l -t
+    7  echo s0
+    8  echo $0
+    9  sh
+   10  ls -la
+   11  cd .
+   12  pwd
+   13  cd .
+   14  cd ..
+   15  ls -l
+   16  ls -la
+   17  pwd
+   18  cd
+   19  cd ..
+   20  tree
+   21  pwd
+   22  ls
+   23  ls - l
+   24  ls -l
+   25  ls -la
+   26  cd ..
+   27  pwd
+   28  cd
+   29  cd ..
+   30  cd user
+   31  pwd
+   32  cd
+   33  cd -
+   34  cd /
+   35  pwd
+   36  cd -
+   37  cd /
+   38  pwd
+   39  cd -/Documents/
+   40  cd -/
+   41  cd -
+   42  cd Desktop/
+   43  cd
+   44  cd /cd
+   45  ls
+   46  mkdir ABC
+   47  LS -LT
+   48  mkdir ABC
+   49  ls -lt
+   50  ls -la ABC/
+   51  rmdir ABC/
+   52  ls -la ABC/
+   53  echo $
+   54  ls
+   55  echo $?
+   56  echo 12345 > a.txt
+   57  ls -l
+   58  cat a.txt
+   59  echo 1234567 > a.txt
+   60  ls -lt
+   61  ls -lt *.txt
+   62  ls -lt *.txt.
+   63  hexdump -C a.txt
+   64  echo abcdef >> a.txt
+   65  cat a.txt
+   66  hexdump -C a.txt
+   67  ping 8.8.8.8
+   68  echo "reinis"
+   69  -e
+   70  echo -e
+   71  echo -e "reinis"
+   72  echo -e "re/nis/a"
+   73  echo -e "re/nis/a" > b.txt
+   74  hexdump -C b.text
+   75  hexdump -C b.txt
+   76  cat b.txt
+   77  touch c.txt
+   78  -t 202312142356 c.txt
+   79  history
+   80  history > history_20230913_Class_02.txt
