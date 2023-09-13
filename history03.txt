@@ -1,0 +1,173 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ls
+    5  ls -l
+    6  ls -l -t
+    7  echo s0
+    8  echo $0
+    9  sh
+   10  ls -la
+   11  cd .
+   12  pwd
+   13  cd .
+   14  cd ..
+   15  ls -l
+   16  ls -la
+   17  pwd
+   18  cd
+   19  cd ..
+   20  tree
+   21  pwd
+   22  ls
+   23  ls - l
+   24  ls -l
+   25  ls -la
+   26  cd ..
+   27  pwd
+   28  cd
+   29  cd ..
+   30  cd user
+   31  pwd
+   32  cd
+   33  cd -
+   34  cd /
+   35  pwd
+   36  cd -
+   37  cd /
+   38  pwd
+   39  cd -/Documents/
+   40  cd -/
+   41  cd -
+   42  cd Desktop/
+   43  cd
+   44  cd /cd
+   45  ls
+   46  mkdir ABC
+   47  LS -LT
+   48  mkdir ABC
+   49  ls -lt
+   50  ls -la ABC/
+   51  rmdir ABC/
+   52  ls -la ABC/
+   53  echo $
+   54  ls
+   55  echo $?
+   56  echo 12345 > a.txt
+   57  ls -l
+   58  cat a.txt
+   59  echo 1234567 > a.txt
+   60  ls -lt
+   61  ls -lt *.txt
+   62  ls -lt *.txt.
+   63  hexdump -C a.txt
+   64  echo abcdef >> a.txt
+   65  cat a.txt
+   66  hexdump -C a.txt
+   67  ping 8.8.8.8
+   68  echo "reinis"
+   69  -e
+   70  echo -e
+   71  echo -e "reinis"
+   72  echo -e "re/nis/a"
+   73  echo -e "re/nis/a" > b.txt
+   74  hexdump -C b.text
+   75  hexdump -C b.txt
+   76  cat b.txt
+   77  touch c.txt
+   78  -t 202312142356 c.txt
+   79  history
+   80  history > history_20230913_Class_02.txt
+   81  ) man rm
+   82  man -ls
+   83  man ls
+   84  man rm
+   85  ls -lt
+   86  rm -v !("history_20230913_Class_02.txt")
+   87  cat history_20230913_Class_02.txt
+   88  ls -lt
+   89  echo history
+   90  history
+   91  ls -lt
+   92  cp history_20230913_Class_02.txt abc.txt
+   93  ls -lt]
+   94  ls -lt
+   95  cat abc.txt
+   96  home
+   97  l
+   98  ls -lt
+   99  cphistory_20230913_Class_02.txt hihi.dat
+  100  ls
+  101  ls-l
+  102  ls -lt
+  103  mkdir DEF
+  104  pwd
+  105  ls
+  106  mv abc.txt -/DEF/
+  107* 
+  108  mv abc.txt ./DEF/
+  109  ls
+  110  ls DEF
+  111  ls -lt
+  112  rindir DEF
+  113  rndir DEF
+  114  rm DEF/
+  115  rm dir /DEF
+  116  rm -r DEF/
+  117  ls -lt
+  118  whereis ls
+  119  echo $PATH
+  120  whereis ls
+  121  ls -lt /bin/ls
+  122  ls
+  123  /bin/ls
+  124  whereis ls
+  125  ls -lt /bin/ls
+  126  cat
+  127  cat/bin/ls
+  128  nano mana_komanda_1.sh
+  129  cat nano mana_komanda_1.sh
+  130  chmod 754
+  131  chmod 754 mana_komanda_1.sh
+  132  ls -lt mana_komanda_1.sh
+  133  ls
+  134  echo $PATH
+  135  pwd
+  136  PATH=$PATH:-
+  137  echo $PATH
+  138  mkdir TEST
+  139  cp mana_komanda_1.sh TEST/
+  140  ls
+  141  ls -lt TEST/
+  142  whereis mana_komanda_1.sh
+  143  history
+  144  ls -lt
+  145  cat history_20230913_Class_02.txt
+  146  history_20230913_Class_02.txt
+  147  history >  history_20230913_Class_02.txt   70  echo -e
+  148  cat history_20230913_Class_02.txt
+  149  ls
+  150  cat history_20230913_Class_02.txt 
+  151  cat history_20230913_Class_02.txt
+  152  nano history_20230913_Class_02.txt 
+  153  history > history_20230913_Class_02.txt
+  154  cat history_20230913_Class_02.txt 
+  155  diff
+  156  diff history_20230913_Class_02.txt > history_20230913_Class_03.txt
+  157  history >  history_20230913_Class
+  158  history >  history_20230913_Class_02.txt
+  159  diff history history_20230913_Class_02.txt > history_20230913_Class_03.txt
+  160  history > history_01
+  161  diff history_01 history_20230913_Class_02.txt > history_20230913_Class_03.txt
+  162  cat history_20230913_Class_03.txt 
+  163  nano mana_komanda_1.sh
+  164  chmod 751 mana_komanda_1.sh
+  165  mana_komanda_1.sh lol lel
+  166  PATH > $PATH
+  167  nano mana_komanda_1.sh
+  168  LS
+  169  ls
+  170  PATH=$PATH:~
+  171  mana_komanda_1.sh LOL LIL
+  172  history > history03
+  173  history > history03.txt
