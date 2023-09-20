@@ -1,0 +1,47 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git --version
+    4  pwd
+    5  ls -lt
+    6  git clone https://github.com/ReinisVigulis/RTR105
+    7  LS -LT
+    8  ls -lt
+    9  ls lt RTR105
+   10  ls -lt RTR105
+   11  PED
+   12  pwd
+   13  ls -lt
+   14  git clone https://github.com/ReinisVigulis/RTR105
+   15  git clone https://github.com/ReinisVigulis/RTR105_V1
+   16  git clone https://github.com/ReinisVigulis/RTR105 12
+   17  ls -lt
+   18  rm -rt 12
+   19  rm -rf 12
+   20  ls -lt
+   21  RTR105
+   22  cd RTR105
+   23  ls -lta
+   24  cd .git
+   25  ls -lt
+   26  cat config
+   27  cat index
+   28  cd ..
+   29  ls -lt
+   30  nano git-upload
+   31  cat git-upload
+   32  chmod 754 git-upload
+   33  ls -lt
+   34  ./git-upload
+   35  history > history_ history_04.txt
+   36  ./git-upload
+   37  cd ..
+   38  ls -lt
+   39  rm -rf RTR105
+   40  ls -lt
+   41  history | grep clone
+   42  git clone https://github.com/ReinisVigulis/RTR105_V1
+   43  git clone https://github.com/ReinisVigulis/RTR105
+   44  cd RTR105/
+   45  nano git-upload
+   46  ./git-upload 05
+   47  history > history_05.txt
