@@ -1,0 +1,47 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/ReinisVigulis/RTR105
+    4  ls -lt
+    5  cd RTR
+    6  cd RTR105
+    7  ls -lt
+    8  mkdir Class_05
+    9  mkdir Class_06
+   10  cd
+   11  cd/ RTR105/Class_06
+   12  cd ./RTR105/Class_06
+   13  nano printf_test.c
+   14  gcc printf_test.c
+   15  ls -lt
+   16  ./a.out
+   17  cat printf_test.c
+   18  cat printf_test.c -o first.out
+   19  gcc printf_test.c -o printf_test.c
+   20  ./first.out
+   21  ./printf_test.c
+   22  ls -lt
+   23  ./a.out
+   24  /* scanf example */
+   25  #include <stdio.h>
+   26  int main ()
+   27  {   char str [80];   int i;   printf ("Enter your family name: ");
+   28  cd ./RTR105/Class_06
+   29  ls -lt
+   30  nano scan.test.c
+   31  gcc scan.test.c
+   32  nano scan.test.c
+   33  gcc scan.test.c
+   34  gcc scan.test.c -0 scan.test.c
+   35  gcc scan.test.c -o scan.test.c
+   36  gcc scan.test.c -o scan.out
+   37  ./scan.c
+   38  ls -lt
+   39  ./scan.test.c
+   40  ./scan.out
+   41  nano scan.test.c
+   42  nano uzdevums.c
+   43  cd
+   44  cd RTR105
+   45  ls -lt
+   46  ./git-upload
+   47  history > history_06
