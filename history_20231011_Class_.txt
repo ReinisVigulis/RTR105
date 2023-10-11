@@ -1,0 +1,30 @@
+VirtualBox --startvm XP
+quartus
+ls -lt
+git clone https://github.com/ReinisVigulis/RTR105/commits?author=ReinisVigulis
+ls -lt
+git clone https://github.com/ReinisVigulis/RTR105
+ls -lt
+mkdir Class_07
+cd
+cd/RTR105/Class_07
+ls -lt
+RTR105
+cd ./RTR105/Class_07
+cd
+cd RTR105
+cd Class_07
+ls -lt
+mkdir Class_08
+cd Class_08
+nano variables.c
+gcc variables.c 
+gcc variables.c -o variables.out
+nano variables.c
+nano vp variables.c operations.c
+nano operations.c
+gcc operations.c
+nano operations.c 
+cp operations.c while.c
+nano while.c
+history -a
