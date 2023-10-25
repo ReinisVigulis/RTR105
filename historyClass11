@@ -1,0 +1,79 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  gitclone https://github.com/ReinisVigulis/RTR105
+    4  ls -lt
+    5  git clone https://github.com/ReinisVigulis/RTR105
+    6  ls -lt
+    7  cd RTR105
+    8  mkdir Class10
+    9  cd Class10
+   10  nano foo.h
+   11  nano foo.c
+   12  nano main.c
+   13  $ gcc -Wall -c foo.c
+   14  gcc -Wall -c foo.c
+   15  gcc -Wall -c main.c
+   16  gcc -o testprogram foo.o main.o
+   17  nano foo.h
+   18  nano foo.c
+   19  cc -Wall -c foo.c
+   20  gcc -Wall -c foo.c
+   21  gcc -Wall -c main.c
+   22  gcc -o testprogram foo.o main.o
+   23  ls -lt
+   24  ./testprogram
+   25  nano main.c
+   26  nano foo.c
+   27  nano main.c
+   28  nano array.c
+   29  gcc array.c
+   30  ./a.out
+   31  nano array.c
+   32  gcc array.c
+   33  ./a.out
+   34  nano array.c
+   35  nano example1.c
+   36  gcc ezample1.c
+   37  gcc example1.c
+   38  ./a.out
+   39  #include <stdio.h>
+   40  int main()
+   41  {     char name[30];     printf("Enter name: ");
+   42  nano example1.c
+   43  gcc example1.c
+   44  ./a.out
+   45  nano example1.c
+   46  gcc example1.c
+   47  ./a.out
+   48  t t hd jhs 
+   49  nano example1.c
+   50  gcc example1.c
+   51  ./a.out
+   52  jsij
+   53  nano example1.c
+   54  gcc example1.c
+   55  ./a.out
+   56  gcc example1.c
+   57  nano example1.c
+   58  gcc example1.c
+   59  nano example1.c
+   60  gcc example1.c
+   61  nano example1.c
+   62  gcc example1.c
+   63  ./a.out
+   64  1
+   65  nano example1.c
+   66  gcc example1.c
+   67  ./a.out
+   68  111111
+   69  ./a.out
+   70  nano example1.c
+   71  ./a.out
+   72  111111 111111 111111
+   73  ./a.out
+   74  nano example1.c
+   75  cd RTR105
+   76  ls -lt
+   77  cd
+   78  cd RTR105
+   79  history > historyClass11
