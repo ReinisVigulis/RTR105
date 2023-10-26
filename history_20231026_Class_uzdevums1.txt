@@ -1,0 +1,520 @@
+pwd
+whoiam
+whoami
+ls
+ls -t
+whoiam
+whoami
+ls
+ls -lt
+pwd
+cat
+pwd
+pwd -L
+pwd -T
+pwd -P
+cd
+cd Photos
+cd Documents/
+cd
+cd ..
+cd-
+ls
+ls -R
+S
+Als
+lsl
+ls -a
+ls -lh
+cat
+cat >reinis.txt
+ls
+tac reinis.txt
+cp reinis.txt
+cp reinis.txt/home/reinis/Documents
+pwd
+cp man
+man cp
+mv
+mv reinis.txt /home/reinis/Documents.
+ls
+cd Documents
+reinis.txt
+man Documents
+open
+quartus
+pwd
+ls
+ls -l
+ls -l -t
+echo $0
+sh
+ls -la
+cd
+pwd
+cd
+cd .
+ls
+cd
+cd .
+cd user
+cd reinis.txt
+find -reinis.txt
+find
+ls /Doccuments
+ls /Documments
+ls /Documents
+cd Documents
+find -reinis.txt
+reinis.txt
+find /reinis.txt
+ls
+ls/
+cd
+ls
+cat<reinis.txt>
+cat <reinis.txt>
+less reinis.txt
+less Documents.
+cd /home/reinis/Documents.
+ls /home/reinis/Documents.
+cd Documents
+pwd
+ls
+ls/
+home
+sh
+ls -l
+ls -la
+cd .
+pwd
+cd user
+home
+cd/
+`4
+d4
+cd/
+cat <Documents/
+ls
+cat <Documents./
+cat <Documents.>
+cat <Documents>
+cat <reinis.txt>
+less reinis.txt
+less Documents
+less Documents.
+rm Documents.
+ls
+cat > reinis.txt
+ls
+ls -lt
+cd /
+pwd
+cd -/Documents/
+cd Desktop/
+ls
+mkdir ABC
+ls
+mkdir FFF
+sudo
+mkdir ABC
+mkdir Music
+ls
+cd
+cd -cd
+mkdir
+man mkdir
+mkdir [option] dagda
+ls
+mv reinis.txt /home/reinis/dagda
+ls
+cd dagda
+ls -lt
+ls -a
+tac reinis.txt
+tac dagda
+cd user
+cd dagda
+open
+xdg-open
+cd
+LS -LT
+ls -lt
+ls -la dagda/
+echo $
+rmdir dagda/
+ls -la dagda/
+ls -l
+cat a.txt
+echo 12345 > a.txt
+ls -lt
+cat a.txt
+echo 1234567 > a.txt
+cat a.txt
+ls -lt
+ls -lt *.txt
+hexdump -C a.txt
+echo abcdef >> a.txt
+cat a.txt
+echo "reinis"
+-e
+echo -e
+echo -e "reinis"
+echo -e "re/in/is"
+echo -e "re/in/is" > b.txt
+cat b.txt
+hexdump -C b.txt
+cat b.txt
+touch c.txt
+-t 
+ls
+VirtualBox --startvm XP
+sudo apt install virtualbox-qt
+quartus
+git clone
+VirtualBox --startvm XP
+git clone
+sudo apt install git
+git clone
+https://github.com/ReinisVigulis/RTR105
+git clone https://github.com/ReinisVigulis/RTR105
+ls lt
+ls -lt
+cd RTR105
+pwd
+ls -lt
+Class_05
+cat Class_05
+ls -lt
+Class_05
+mkdir Class_05
+cat Class_05
+cd Class_05
+ls -lt
+cat first.c
+cd -
+cd Class_05/
+nano test.c
+ls
+nano tests.c
+cat tests.c
+gcc tests.c -o tests.out
+sudo apt install gcc
+gcc tests.c -o tests.out
+sudo apt install gcc
+apt-get update
+sudo
+apt-get update
+gcc --version
+sudo apt install gcc
+-fix-missing?
+--fix-missing?
+ls -lt
+cat tests.c
+gcc --version
+sudo apt install gcc
+.gitignore
+a.exe
+> gcc hello.c
+gcc --version
+sudo apt install gcc
+-0
+-o
+nano gittignore
+cat a.out
+./a.out 
+gcc --version
+ls -lt
+ll
+ls -lt
+cat tests.c
+gcc --version
+sudo apt install gcc
+apt-get update
+sudo apt-get update
+sudo apt install gcc
+gcc --version
+gcc firsts.c
+gcc tests.c
+ls -lt
+gcc tests.c -o tests.out
+ls -lt
+cat tests.out
+ls -l tests.out
+./tests.out
+ls -lt
+nano printf_test.c
+gcc printf_test.c 
+ls -lt
+./a.out
+ls -lt
+cat printf_test.c 
+gcc printf_test.c -o printf_test.out
+ls -l printf_test.out
+./printf_test.out 
+ls -lt
+./printf_test.out 
+nano printf_test.
+nano printf_test.c
+./printf_test.out 
+ls
+cd `mktemp -d`
+touch main.c
+code .
+sudo snap install code
+sudo snap install code --classic.
+sudo snap install code
+sudo snap install code classic
+code .
+sudo snap install code classic
+mkdir build
+touch main.c
+code .
+sudo snap install code
+--classic.
+sudo snap install code classic
+sudo snap install code --classic
+touch main.c
+code .
+mkdir build
+ls
+./main
+ls
+[200~gcc main.c -o build/main
+gcc main.c -o build/main
+cd build
+ls
+./main
+cd ..
+gcc main.c -c -o build/main.o
+ls
+ldd main
+ld man
+man
+man ld
+ls
+clear
+ls
+ldd main
+ls
+./a.out
+clear
+objdump -S main.o
+cd
+ls -lt
+snap
+ls -lt
+run printf_test.out
+cat printf_test.c
+gcc printf_test.c -o printf_test.c
+./first.out
+gcc printf_test.c -o printf_test.c
+ls -lt
+nano for.c
+gcc for.c
+ls -lt
+./a.out
+nano for.c
+gcc for.c
+./a.out
+nano for.c
+gcc for.c
+./a.out
+nano for.c
+gcc for.c
+./a.out
+nano for.c
+ls -lt
+nano while.c
+gcc while.c
+ls -lt
+./a.out
+nano while.c
+gcc while.c
+./a.out
+nano while.c
+gcc while.c
+./a.out
+gcc while.c
+nano while.c
+gcc while.c
+./a.out
+nano if.c
+gcc if.c
+./a.out
+nano if.c
+gcc if.c
+./a.out
+ls -lt
+nano while.c
+gcc while.c
+./a.out
+ls ilt
+ls -lt
+nano printf_test.c
+gcc printf_test.c
+./a.out
+ls -lt
+nano operations.c
+gcc operations.c 
+./a.out
+nano operations.c
+gcc operations.c 
+./a.out
+nano operations.c
+gcc operations.c 
+./a.out
+nano operations.c
+gcc operations.c 
+./a.out
+nano operations.c
+gcc operations.c 
+./a.out
+nano operations.c
+gcc operations.c 
+nano operations.c
+gcc operations.c 
+./a.out
+nano operations.c
+./a.out
+nano variables.c
+gcc variables.c
+nano variables.c
+gcc operations.c 
+./a.out
+nano variables.c
+gcc operations.c 
+gcc variables.c
+nano uzdevums 1
+ls -lt
+gcc uzdevums
+nano uzdevums 1
+ls -lt
+gcc uzdevums.c
+nano uzdevums.c
+gcc uzdevums.c
+./a.out
+nano uzdevums.c
+gcc uzdevums.c
+./a.out
+nano uzdevums.c
+gcc uzdevums.c
+nano uzdevums.c
+gcc uzdevums.c
+nano uzdevums.c
+gcc uzdevums.c
+nano uzdevums.c
+gcc uzdevums.c
+nano uzdevums.c
+gcc uzdevums.c
+./a.out
+nano uzdevums.c
+gcc uzdevums.c
+./a.out
+nano uzdevums.c
+gcc uzdevums.c
+nano uzdevums.c
+gcc uzdevums.c
+./a.out
+ls -lt
+gcc uzdevums.c
+./a.out
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+100 000
+nano majasdarbs1.c
+gcc majasdarbs1.c
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+100 000
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+100 000
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+100 000
+nano majasdarbs1.c
+./a.out
+nano majasdarbs1.c
+nano kapec.c
+gcc kapec.c
+./a.out
+gcc majasdarbs1.c
+./a.out
+nano majasdarbs1.c
+gcc majasdarbs1.c
+nano majasdarbs1.c
+gcc majasdarbs1.c
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+gcc majasdarbs1.c
+./a.out
+nano majasdarbs1.c
+nano kapec.c
+gcc kapec.c
+./a.out
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+gcc majasdarbs1.c
+nano majasdarbs1.c
+gcc majasdarbs1.c
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+ls -l
+nano uzdevums.c
+nano majasdarbs1.c
+gcc majasdarbs1.c
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+nano majasdarbs1.c
+gcc majasdarbs1.c
+./a.out
+nano majasdarbs1.c
+git upload
+ls -lt
+git add
+git config --global user.name ReinisVigulis
+git config --global user.email sinier2004@gmail.com
+git clone https://github.com/ReinisVigulis/RTR105
+https://github.com/ReinisVigulis/RTR105
+git https://github.com/ReinisVigulis/RTR105
+git --help
+git commit -a
+git commit RTR105
+git clone https://github.com/ReinisVigulis/RTR105
+git https://github.com/ReinisVigulis/RTR105
+git upload
+nano while_char.c
+gcc while_char.c
+./a.out
+ls -lt
+huizin.c
+cd huizin.c
+nano huizin.c
+ls -lt
+ssh -X -C p231REC020@213.175.92.15 -p 30022
+ls -lt
+ssh -X -C p991REB037@213.175.92.15 -p 30022
+ssh -X -C p231REC020@213.175.92.15 -p 30022
+xauth
+ssh -X -C p231REC020@213.175.92.15 -p 30022
