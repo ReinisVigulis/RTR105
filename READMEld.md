@@ -98,5 +98,6 @@ int main() {
 ```
 Kā redzams, lietotāja funkcijas rezultāts ir kāds mistisks skaitlis, kas nav pareizs, jo funkcijas `sin (x * x)` rezultātam ir jābūt robežās no [-1 : 1].
 Analizējot kodu un meklējot kļūdu, ar pasniedzējas palīdzību tika konstatēts, ka kļūdu rada long double datu tipa īpatnības, es to sapratu tā, ka veicot aritmētiskas darbības ar long double datu tipu, pēc kārtas izpildot darbības uzkrājas kļūda, un ņemot vērā to, ka aprēķinot nākamo rezultā vērā tiek ņemts iepriekšējais rezultāts, tādēļ kļūda uzkrājas arvien lielāka un rezultāts ir kļūdains.
-Vairāk par šo īpatnību ir aprakstīts šeit 
+Vairāk par šo īpatnību ir aprakstīts [šeit] (https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
+
 
