@@ -7,22 +7,25 @@ Pirmais uzdevums bija matemātiski izrēķināt manas funkcijas `sin(x * x)` vē
 [`sin(x * x)` funkcijas attēlojums pirmajām 4 rindiņām izmantojot gnuplot](https://github.com/ReinisVigulis/RTR105/assets/144206407/8ad99ea9-a397-4539-acc1-ad3e9240bb20)
 
 Izmantojot 'gnuplot' var ļoti labi vizualizēt un saprast, ko tad pirmais kods parāda, kā var saprast pēc grafika ir redzams sin (x * x) grafiks. Funkcijas `s0(x)` - `s4(x)` sākumā sakrīt ar orģinālfunkciju    `sin(x * x)`. Katra nākamā funkcija ilgāku laika periodu sakrīt ar `sin (x * x)`. Dotais grafiks ļoti labi parāda, kā darbojas teilora rindas.
-
+```
 ## Gnuplot sin (x * x) koda piemērs!
-gnuplot> set title "SIN (x * x)"                                                       
-gnuplot> set xrange [-3:3]                                                             
-gnuplot> set yrange [-3:3]                                                             
-gnuplot> a0(x) = x**2 / (1)                                                            
-gnuplot> a1(x) = -x**6 / (1*2*3) 
+
+gnuplot> set title "SIN (x * x)"   
+gnuplot> set xrange [-5:5]     
+gnuplot> set yrange [-5:5]     
+gnuplot> a0(x) = x**2 / (1) 
+gnuplot> a1(x) = -x**6 / (1*2*3)   
 gnuplot> a2(x) = x**10 / (1*2*3*4*5)
-gnuplot> a3(x) = -x**12 / (1*2*3*4*5*6*7)                                              
-gnuplot> a4(x) = x**16 / (1*2*3*4*5*6*7*8*9)                                           
-gnuplot> s0(x) = a0(x)                                                                 
-gnuplot> s1(x) = a0(x) + a1(x)                                                         
-gnuplot> s2(x) = a0(x) + a1(x) + a2(x)                                                 
-gnuplot> s3(x) = a0(x) + a1(x) + a2(x) + a3(x)                                         
-gnuplot> s4(x) = a0(x) + a1(x) + a2(x) + a3(x) +a4(x)                                  
+gnuplot> a3(x) = -x**12 / (1*2*3*4*5*6*7) 
+gnuplot> a4(x) = x**16 / (1*2*3*4*5*6*7*8*9) 
+gnuplot> s0(x) = a0(x)
+gnuplot> s1(x) = a0(x) + a1(x)      
+gnuplot> s2(x) = a0(x) + a1(x) + a2(x)   
+gnuplot> s3(x) = a0(x) + a1(x) + a2(x) + a3(x)   
+gnuplot> s4(x) = a0(x) + a1(x) + a2(x) + a3(x) +a4(x)  
 gnuplot> plot sin(x*x) lw 3, s0(x) lw 3, s1(x) lw 3, s2(x) lw 3, s3(x) lw 3, s4(x) lw 3 
+```
+
 
 ## Teilora rindas - kods, gala versija sin (x * x) 
 Uzdevums bija izveidot kodu, kas izmantojot teilora rindas rekurences rezinātāju aprēķinās funkcijas `sin (x * x)` vērtību pie attiecīgās `x` vērtības. Es vadījos pēc dotā pasniedzējas piemēra, to pārveidojot savai funkcijai.
@@ -98,7 +101,12 @@ int main() {
 ```
 Kā redzams, lietotāja funkcijas rezultāts ir kāds mistisks skaitlis, kas nav pareizs, jo funkcijas `sin (x * x)` rezultātam ir jābūt robežās no [-1 : 1].
 Analizējot kodu un meklējot kļūdu, ar pasniedzējas palīdzību tika konstatēts, ka kļūdu rada long double datu tipa īpatnības, es to sapratu tā, ka veicot aritmētiskas darbības ar long double datu tipu, pēc kārtas izpildot darbības uzkrājas kļūda, un ņemot vērā to, ka aprēķinot nākamo rezultā vērā tiek ņemts iepriekšējais rezultāts, tādēļ kļūda uzkrājas arvien lielāka un rezultāts ir kļūdains.
-Vairāk par šo īpatnību ir aprakstīts [šeit] (https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
+Vairāk par šo īpatnību ir aprakstīts šeit (https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
 
-![Alt text](image.png)
+
+
+![image](https://github.com/ReinisVigulis/RTR105/assets/144206407/8407a350-006e-410c-812e-674eb2c9708c)
+
+
+
 
