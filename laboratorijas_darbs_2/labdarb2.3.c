@@ -3,17 +3,17 @@
 int main(){
     float a, b, x, A, delta_x, funkca, funkcb, funkcx;
     int k = 0;
-    printf("Cien. liet., luudzu, ievadiet A veertibu sekojošajam vienadojumam:sin(x * x)=A\n");
+    printf("Cien. liet., lūdzu, ievadiet A vēertibu sekojošajam vienadojumam:sin(x * x)=A\n");
     scanf("%f", &A);
 
-    printf("Cien. liet., lūdzu ievadiet vērtību a: \n");
+    printf("Cien. liet., lūdzu ievadiet ievadiet intervāla robežu no kreisās puses : \n");
     scanf("%f", &a);
 
-    printf("Ievadiet vērtību b: \n");
+    printf("Ievadiet intervāla robežu no labās puses : \n");
     scanf("%f", &b);
 
 
-    printf("Ievadiet delta x vērtību: \n");
+    printf("Ievadiet precizitāti ar kādu vēlaties pietuvoties funkcijas saknei: \n");
     scanf("%f", &delta_x);
     funkca = sin (a * a)-A; funkcb = sin (b * b)-A;
     if (funkca * funkcb >0){
