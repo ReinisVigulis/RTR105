@@ -14,7 +14,7 @@ int main() {
     printf("Reizinājums ir: %lld\n", rezultats);
 }
     else { 
-    printf("Ievad'itas nepareizas v'ert'ibas, jo reizin'ajums san'ak: %lld\n", rezultats);
+    printf("Ievadītas nepareizas vērtības, jo reizinājums sanāk: %lld\n", rezultats);
 }
     return 0;
 }

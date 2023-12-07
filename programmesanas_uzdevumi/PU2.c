@@ -9,16 +9,16 @@ char bit4;
 char bit5;
 char bit6;
 char bit7;
-printf("Uzrakstiet naturālu skaitli: ");
+printf("Ievadiet naturālu skaitli robežās no 0 līdz 255: ");
 scanf("%d", &skaitlis1);
-fflush(stdin);
-printf ("%d", skaitlis1);
-if(skaitlis1 < 0 && skaitlis1 > 255 ){
-   printf("Ievadiet naturālu skaitli\n");
-   return 0;
-}
 
+  if(skaitlis1 < 0 || skaitlis1 > 255 ){
+     printf("Lūdzu ievadiet vērtību, kas atbilst nosacījumiem!\n");
 
+     return 0;
+    }
+
+printf("Skaitlis %d binārajā kodā ir: ", skaitlis1);
 bit7 = skaitlis1 >> 7 & 1;
 printf("%d", bit7);
 bit6 = skaitlis1 >> 6 & 1;
@@ -35,17 +35,6 @@ bit1 = skaitlis1 >> 1 & 1;
 printf("%d", bit1);
 bit0 = skaitlis1 >> 0 & 1;
 printf("%d", bit0);
-//printf("Skaitlis %hhu binārajā kodā ir: ", skaitlis1 );
-//for (int i = 7; i >= 0; i--) {
-    //if ((skaitlis1 >> i) & 1){
-     //printf("1");
-    //}
 
-   // else{
-       // printf("0");
-    //}
-//}
-
-//printf("\n");
 return 0;
 }
