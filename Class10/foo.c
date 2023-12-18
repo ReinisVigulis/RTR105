@@ -1,6 +1,5 @@
 #include "foo.h"    /* Always include the header file that declares something
-                     * in the C file that defines it. This makes sure that the
-                     * declaration and definition are always in-sync.  Put this
+                     * in the C file that defines it. This makes sure that the                     * declaration and definition are always in-sync.  Put this
                      * header first in foo.c to ensure the header is self-contained.
                      */
 #include <stdio.h>
@@ -14,11 +13,5 @@ void foo(int id, char *name)
     fprintf(stderr, "foo(%d, \"%s\");\n", id, name);
     /* This will print how foo was called to stderr - standard error.
      * e.g., foo(42, "Hi!") will print `foo(42, "Hi!")`
-     */
-    printf("(izdrukātaq no foo funkcijas)name atrašanās vieta atmiņa: %p\n",name);
-    printf("(izdrukātaq no foo funkcijas)name vērtiba: %s\n",name);
-
-    printf("(izdrukātaq no foo funkcijas)id atrašanās vieta atmiņa: %p\n",&id);
-    printf("(izdrukātaq no foo funkcijas)id vērtiba: %d\n",id);
-
+     */   
 }
