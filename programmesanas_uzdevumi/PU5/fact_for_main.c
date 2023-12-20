@@ -1,15 +1,15 @@
 #include <stdio.h>
-#include "fact_char.h"
-#include "fact_int.h"
-#include "fact_long.h"
+#include "fchar_fact.h"
+#include "fint_fact.h"
+#include "flong_fact.h"
 
 int main() {
     char number;
     char dati;
 
     printf("Ievadiet skaitli:\n");
-    if (scanf("%hhd", &number) != 1) {
-        printf("Ievadiits neatbilstoss skaitlis! \n");
+    if (scanf("%hhd", &number) != 1 || number < 0) {
+        printf("Ievadiits neatbilstoss skaitlis \n");
         return 1;
     }
 
@@ -21,13 +21,13 @@ int main() {
 
     switch (dati) {
         case 'c':
-            fact_char(number);
+            fchar_fact(number);
             break;
         case 'i':
-            fact_int(number);
+            fint_fact(number);
             break;
         case 'l':
-            fact_long(number);
+            flong_fact(number);
             break;
         default:
             printf("Izveelaties kaadu no dotajiem datu tipiem!\n");
@@ -36,3 +36,5 @@ int main() {
 
     return 0;
 }
+// kā nokompilēt - gcc fact_for_main.c fchar_fact.c fint_fact.c flong_fact.c -o my_programs
+// ./my_programs
