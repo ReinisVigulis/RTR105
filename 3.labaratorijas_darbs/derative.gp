@@ -1,6 +1,6 @@
 #!/usr/bin/gnuplot --persist
 set terminal pngcairo enhanced font "arial,10" fontscale 1.0 size 600, 400 
-set output 'derivative.png'
+set terminal pngcairo enhanced font "arial,10" fontscale 1.0 size 600, 400 
 
 set grid
 
