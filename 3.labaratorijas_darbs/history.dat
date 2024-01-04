@@ -1,0 +1,39 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  gnuplot
+    4  ls
+    5  cd Desktop
+    6  ls
+    7  cd RTR105
+    8  ls
+    9  cd 3.labaratorijas_darbs
+   10  ls
+   11  nano
+   12  gnuplot
+   13  ./atvasin.gp
+   14  chmod
+   15  chmod 357 atvasin.gp
+   16  ./atvasin.gp
+   17  gnuplot
+   18  nano atvasin.gp
+   19  cd
+   20  ls
+   21  cd Desktop/
+   22  cd RTR105/
+   23  cd 3.labaratorijas_darbs/
+   24  ls
+   25  cat atvasin.gp
+   26  ls -lt
+   27  chmod 744 atvasin.gp
+   28  cat atvasin.gp
+   29  gnuplot
+   30  ls -lt
+   31  cat atvasin.dat
+   32  nano atvasin.dat
+   33  ls -lt
+   34  nano 
+   35  nano atvasin+.dat
+   36  gnuplot
+   37  nano atvasin.gp
+   38  gnuplot
+   39  history
