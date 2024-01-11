@@ -114,13 +114,13 @@ Ja masīva garums ir pāra skaitlis, tad mediāna tiek attēlota kā divi vidēj
 
 ### Piemērs koda darbībai
 ```
-Ievadiet teikumu: jo ho ho
-Sākartota simbolu rinda (atstarpes neņemot vērā):   hhjooo
-Simbolu ASCII vērtības: 104 104 106 111 111 111
-Mazākā vērtība: h
-Lielākā vērtība: o
-Vidējā vērtība (saskaņā ar ASCII skaitļiem): 107
-Modas vērtība(s): o - Count: 3
-Mediānas vērtība(s): jo
+Ievadiet teikumu: jj oo hh
+Sākartota simbolu rinda (atstarpes neņemot vērā):   hhjjoo
+Simbolu ASCII vērtības: 104 104 106 106 111 111
+Mazākā vērtība: h (104)
+Lielākā vērtība: o (111)
+Vidējā vērtība (saskaņā ar ASCII skaitļiem): k (107)
+Moda: h - biežums: 2, j - biežums: 2, o - biežums: 2,
+Mediāna: jj
 ```
 Atšķirībā no citiem laboratorijas darbiem, šis ir vairāk pielietojams sadzīvē un statistikā. Principā, galvenais uzdevums bija sakārtot simbolu rindu alfabēta secībā un izdomāt, kā neievērot atstarpes, jo arī atstarpe ir simbols, bet lietotājam rakstot teikumu ir svarīgi atdalīt vārdus ar atstarpi, lai teikums būtu pārskatāms. 
